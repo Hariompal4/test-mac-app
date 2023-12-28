@@ -9,8 +9,8 @@ RUN apt install apache2 -y
 # Install Git (if needed)
 # RUN apt install git -y
 
-# Clone a Git repository (replace <repository_url> with the actual URL)
-# RUN git clone <repository_url>
+Clone a Git repository 
+# RUN git clone https://github.com/Hariompal4/test-mac-app.git
 
 # Copy the contents of the current directory into the container's /var/www/html/
 COPY . /var/www/html/
